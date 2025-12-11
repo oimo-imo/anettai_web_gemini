@@ -4,11 +4,11 @@ import Link from 'next/link';
 import { BASE_PATH } from '@/lib/config';
 
 const socialData = [
-    { name: 'X', url: 'https://x.com/subsleepics', icon: `${BASE_PATH}/images/sns/X.png` },
-    { name: 'Instagram', url: 'https://www.instagram.com/subsleepics/', icon: `${BASE_PATH}/images/sns/Instagram.png` },
-    { name: 'Pinterest', url: 'https://jp.pinterest.com/subsleepics', icon: `${BASE_PATH}/images/sns/Pinterest.png` },
-    { name: 'BOOTH', url: 'https://subsleepics.booth.pm/', icon: `${BASE_PATH}/images/sns/BOOTH.png` },
-    { name: 'note', url: 'https://note.com/subsleepics', icon: `${BASE_PATH}/images/sns/note.png` },
+    { name: 'X', url: 'https://x.com/subsleepics', icon: `${BASE_PATH}/images/SNS/X.png` },
+    { name: 'Instagram', url: 'https://www.instagram.com/subsleepics/', icon: `${BASE_PATH}/images/SNS/Instagram.png` },
+    { name: 'Pinterest', url: 'https://jp.pinterest.com/subsleepics', icon: `${BASE_PATH}/images/SNS/Pinterest.png` },
+    { name: 'BOOTH', url: 'https://subsleepics.booth.pm/', icon: `${BASE_PATH}/images/SNS/BOOTH.png` },
+    { name: 'note', url: 'https://note.com/subsleepics', icon: `${BASE_PATH}/images/SNS/note.png` },
 ];
 
 export default function SocialLinks({ className = "", filter = [] }) {
