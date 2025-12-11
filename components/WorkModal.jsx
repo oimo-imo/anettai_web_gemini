@@ -3,6 +3,8 @@ import { motion, AnimatePresence } from 'framer-motion';
 import Image from 'next/image';
 import { useEffect } from 'react';
 
+import { BASE_PATH } from '@/lib/config';
+
 export default function WorkModal({ work, onClose }) {
     // Lock body scroll
     useEffect(() => {
@@ -44,7 +46,7 @@ export default function WorkModal({ work, onClose }) {
                         {/* Image Section */}
                         <div className="relative aspect-square w-full md:w-1/2 rounded-2xl overflow-hidden bg-black/20">
                             {work.image ? (
-                                <Image src={work.image} alt={work.title} fill className="object-contain" />
+                                <Image src={`${BASE_PATH}${work.image}`} alt={work.title} fill className="object-contain" />
                             ) : (
                                 <div className="flex h-full items-center justify-center text-white/50">No Image</div>
                             )}
