@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+:root {
+  /* Common Textures */
+  --gloss-highlight: rgba(255, 255, 255, 0.8);
+  --glass-border: rgba(255, 255, 255, 0.6);
+  --shadow-color: rgba(0, 100, 255, 0.2);
+
+  /* Day Palette */
+  --color-day-main: #00D2FF;
+  --color-day-accent: #70FF00;
+  --color-day-base: #FFFFFF;
+
+  /* Sunset Palette */
+  --color-sunset-main: #FF2A6D;
+  --color-sunset-accent: #FFF000;
+  /* Gradients for sunset handled in classes */
+
+  /* Night Palette */
+  --color-night-main: #050014;
+  --color-night-neon: #00FF9D;
+  --color-night-purple: #BD00FF;
+}
+
+@theme inline {
+  --color-day-main: var(--color-day-main);
+  --color-day-accent: var(--color-day-accent);
+  --color-day-base: var(--color-day-base);
+
+  --color-sunset-main: var(--color-sunset-main);
+  --color-sunset-accent: var(--color-sunset-accent);
+
+  --color-night-main: var(--color-night-main);
+  --color-night-neon: var(--color-night-neon);
+  --color-night-purple: var(--color-night-purple);
+
+  --font-zen: var(--font-zen-maru);
+}
+
+body {
+  font-family: var(--font-zen-maru), sans-serif;
+  background: var(--color-day-base);
+  /* Default start */
+  color: #333;
+}
+
+@keyframes twinkle {
+
+  0%,
+  100% {
+    opacity: 0.2;
+    transform: scale(0.8);
+  }
+
+  50% {
+    opacity: 1;
+    transform: scale(1.2);
+  }
+}
+
+.animate-twinkle {
+  animation: twinkle 3s infinite ease-in-out;
+}

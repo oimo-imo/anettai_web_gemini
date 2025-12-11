@@ -1,0 +1,419 @@
+{
+    "works": [
+        {
+            "id": 1,
+            "title": "ひまわり",
+            "date": "2025-08-20",
+            "year": 2025,
+            "image": "/works/ひまわり.png",
+            "tools": [
+                "Blender",
+                "Photoshop"
+            ],
+            "tags": [
+                "3D",
+                "Abstract"
+            ],
+            "description": "A mysterious cube floating in the digital void. Represents the core of the Anettai universe.",
+            "featured": true
+        },
+        {
+            "id": 2,
+            "title": "Neon Dreams",
+            "date": "2025-10-30",
+            "year": 2025,
+            "image": "/works/ガチャガチャ.png",
+            "tools": [
+                "Unity",
+                "C#"
+            ],
+            "tags": [
+                "Game",
+                "PixelArt"
+            ],
+            "description": "A retro-futuristic exploration game prototype.",
+            "featured": true
+        },
+        {
+            "id": 3,
+            "title": "Liquid Sky",
+            "date": "2025-10-08",
+            "year": 2025,
+            "image": "/works/お月見_re.png",
+            "tools": [
+                "AfterEffects"
+            ],
+            "tags": [
+                "Motion",
+                "Y2K"
+            ],
+            "description": "Motion graphics study focusing on fluid dynamics and Frutiger Aero aesthetics.",
+            "featured": true
+        },
+        {
+            "id": 4,
+            "title": "Day",
+            "date": "2025-05-14",
+            "year": 2025,
+            "image": "/works/Day.png",
+            "tools": [
+                "Blender"
+            ],
+            "tags": [
+                "Motion",
+                "Y2K"
+            ],
+            "description": "Motion graphics study focusing on fluid dynamics and Frutiger Aero aesthetics.",
+            "featured": true
+        },
+        {
+            "id": 5,
+            "title": "Error Music",
+            "date": "2025-04-13",
+            "year": 2025,
+            "image": "/works/errormusic.png",
+            "tools": [
+                "Blender"
+            ],
+            "tags": [
+                "3D"
+            ],
+            "description": "Digital Art",
+            "featured": false
+        },
+        {
+            "id": 6,
+            "title": "Prop",
+            "date": "2025-01-25",
+            "year": 2025,
+            "image": "/works/prop.png",
+            "tools": [
+                "Blender"
+            ],
+            "tags": [
+                "3D",
+                "Prop"
+            ],
+            "description": "Digital Art",
+            "featured": false
+        },
+        {
+            "id": 7,
+            "title": "お月見 (Vertical)",
+            "date": "2025-10-11",
+            "year": 2025,
+            "image": "/works/お月見_tate.png",
+            "tools": [
+                "Blender"
+            ],
+            "tags": [
+                "3D",
+                "Art"
+            ],
+            "description": "Digital Art",
+            "featured": false
+        },
+        {
+            "id": 8,
+            "title": "へびさんのかがみもち工場",
+            "date": "2024-12-17",
+            "year": 2024,
+            "image": "/works/へびさんのかがみもち工場.png",
+            "tools": [
+                "Blender"
+            ],
+            "tags": [
+                "3D",
+                "Art"
+            ],
+            "description": "Digital Art",
+            "featured": false
+        },
+        {
+            "id": 9,
+            "title": "オムライス",
+            "date": "2025-04-08",
+            "year": 2025,
+            "image": "/works/オムライス.png",
+            "tools": [
+                "Blender"
+            ],
+            "tags": [
+                "3D",
+                "Food"
+            ],
+            "description": "Digital Art",
+            "featured": false
+        },
+        {
+            "id": 10,
+            "title": "Color Girl 3",
+            "date": "2024-12-30",
+            "year": 2024,
+            "image": "/works/カラーガール_3.png",
+            "tools": [
+                "Illustration"
+            ],
+            "tags": [
+                "2D",
+                "Character"
+            ],
+            "description": "Digital Art",
+            "featured": false
+        },
+        {
+            "id": 11,
+            "title": "Coin Laundry",
+            "date": "2025-01-04",
+            "year": 2025,
+            "image": "/works/コインランドリー_正方形1.png",
+            "tools": [
+                "Blender"
+            ],
+            "tags": [
+                "3D",
+                "Scene"
+            ],
+            "description": "Digital Art",
+            "featured": false
+        },
+        {
+            "id": 12,
+            "title": "シール台紙",
+            "date": "2025-01-24",
+            "year": 2025,
+            "image": "/works/シール台紙.png",
+            "tools": [
+                "Illustration"
+            ],
+            "tags": [
+                "Design"
+            ],
+            "description": "Digital Art",
+            "featured": false
+        },
+        {
+            "id": 13,
+            "title": "Chocolate Kitchen",
+            "date": "2025-02-13",
+            "year": 2025,
+            "image": "/works/チョコレートキッチン.jpg",
+            "tools": [
+                "Blender"
+            ],
+            "tags": [
+                "3D",
+                "Food"
+            ],
+            "description": "Digital Art",
+            "featured": false
+        },
+        {
+            "id": 14,
+            "title": "Balcony",
+            "date": "2025-01-15",
+            "year": 2025,
+            "image": "/works/バルコニー.png",
+            "tools": [
+                "Blender"
+            ],
+            "tags": [
+                "3D",
+                "Scene"
+            ],
+            "description": "Digital Art",
+            "featured": false
+        },
+        {
+            "id": 15,
+            "title": "Bakery 3",
+            "date": "2025-03-14",
+            "year": 2025,
+            "image": "/works/パン屋_3.png",
+            "tools": [
+                "Blender"
+            ],
+            "tags": [
+                "3D",
+                "Food"
+            ],
+            "description": "Digital Art",
+            "featured": false
+        },
+        {
+            "id": 16,
+            "title": "Prop 1",
+            "date": "2025-03-29",
+            "year": 2025,
+            "image": "/works/プロップ1.png",
+            "tools": [
+                "Blender"
+            ],
+            "tags": [
+                "3D",
+                "Prop"
+            ],
+            "description": "Digital Art",
+            "featured": false
+        },
+        {
+            "id": 17,
+            "title": "Prop 4",
+            "date": "2025-03-16",
+            "year": 2025,
+            "image": "/works/プロップ4.png",
+            "tools": [
+                "Blender"
+            ],
+            "tags": [
+                "3D",
+                "Prop"
+            ],
+            "description": "Digital Art",
+            "featured": false
+        },
+        {
+            "id": 18,
+            "title": "Prop 7",
+            "date": "2025-02-28",
+            "year": 2025,
+            "image": "/works/プロップ7.png",
+            "tools": [
+                "Blender"
+            ],
+            "tags": [
+                "3D",
+                "Prop"
+            ],
+            "description": "Digital Art",
+            "featured": false
+        },
+        {
+            "id": 19,
+            "title": "Retro PC",
+            "date": "2025-01-22",
+            "year": 2025,
+            "image": "/works/レトロPC.png",
+            "tools": [
+                "Blender"
+            ],
+            "tags": [
+                "3D",
+                "Retro"
+            ],
+            "description": "Digital Art",
+            "featured": false
+        },
+        {
+            "id": 20,
+            "title": "Space Flight",
+            "date": "2024-12-31",
+            "year": 2024,
+            "image": "/works/宇宙飛行_正方形.png",
+            "tools": [
+                "Blender"
+            ],
+            "tags": [
+                "3D",
+                "Space"
+            ],
+            "description": "Digital Art",
+            "featured": false
+        },
+        {
+            "id": 21,
+            "title": "Moon Rabbit",
+            "date": "2025-01-28",
+            "year": 2025,
+            "image": "/works/月見てうさぎ.jpg",
+            "tools": [
+                "Illustration"
+            ],
+            "tags": [
+                "2D",
+                "Art"
+            ],
+            "description": "Digital Art",
+            "featured": false
+        },
+        {
+            "id": 22,
+            "title": "Vending Machine Sketch",
+            "date": "2025-02-06",
+            "year": 2025,
+            "image": "/works/自販機_ラフ12.png",
+            "tools": [
+                "Illustration"
+            ],
+            "tags": [
+                "Sketch"
+            ],
+            "description": "Digital Art",
+            "featured": false
+        },
+        {
+            "id": 23,
+            "title": "Hana Yori Dango",
+            "date": "2025-03-21",
+            "year": 2025,
+            "image": "/works/花より団子_レタッチ.png",
+            "tools": [
+                "Blender"
+            ],
+            "tags": [
+                "3D",
+                "Food"
+            ],
+            "description": "Digital Art",
+            "featured": false
+        },
+        {
+            "id": 24,
+            "title": "Drugstore",
+            "date": "2025-02-28",
+            "year": 2025,
+            "image": "/works/薬屋.png",
+            "tools": [
+                "Blender"
+            ],
+            "tags": [
+                "3D",
+                "Scene"
+            ],
+            "description": "Digital Art",
+            "featured": false
+        },
+        {
+            "id": 25,
+            "title": "Drugstore Night",
+            "date": "2025-02-28",
+            "year": 2025,
+            "image": "/works/薬屋_夜.png",
+            "tools": [
+                "Blender"
+            ],
+            "tags": [
+                "3D",
+                "Scene"
+            ],
+            "description": "Digital Art",
+            "featured": false
+        },
+        {
+            "id": 26,
+            "title": "Hot Pot Night",
+            "date": "2024-12-27",
+            "year": 2024,
+            "image": "/works/鍋の夜.png",
+            "tools": [
+                "Blender"
+            ],
+            "tags": [
+                "3D",
+                "Food"
+            ],
+            "description": "Digital Art",
+            "featured": false
+        }
+    ]
+}
