@@ -187,7 +187,7 @@ export default function Home() {
                     >
                         {/* Removed text overlay as requested */}
                         <Image
-                            src="/images/blog/banner.png"
+                            src={`${BASE_PATH}/images/blog/banner.png`}
                             alt="Official Blog"
                             fill
                             className="object-cover group-hover:opacity-100 transition-opacity"
