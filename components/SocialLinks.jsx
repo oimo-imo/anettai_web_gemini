@@ -1,13 +1,14 @@
 'use client';
 import Image from 'next/image';
 import Link from 'next/link';
+import { BASE_PATH } from '@/lib/config';
 
 const socialData = [
-    { name: 'X', url: 'https://twitter.com', icon: '/images/sns/X.png' },
-    { name: 'Instagram', url: 'https://instagram.com', icon: '/images/sns/Instagram.png' },
-    { name: 'Pinterest', url: 'https://pinterest.com', icon: '/images/sns/Pinterest.png' },
-    { name: 'BOOTH', url: 'https://booth.pm', icon: '/images/sns/BOOTH.png' },
-    { name: 'note', url: 'https://note.com', icon: '/images/sns/note.png' },
+    { name: 'X', url: 'https://twitter.com', icon: `${BASE_PATH}/images/sns/X.png` },
+    { name: 'Instagram', url: 'https://instagram.com', icon: `${BASE_PATH}/images/sns/Instagram.png` },
+    { name: 'Pinterest', url: 'https://pinterest.com', icon: `${BASE_PATH}/images/sns/Pinterest.png` },
+    { name: 'BOOTH', url: 'https://booth.pm', icon: `${BASE_PATH}/images/sns/BOOTH.png` },
+    { name: 'note', url: 'https://note.com', icon: `${BASE_PATH}/images/sns/note.png` },
 ];
 
 export default function SocialLinks({ className = "", filter = [] }) {

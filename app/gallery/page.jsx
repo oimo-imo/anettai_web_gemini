@@ -9,6 +9,7 @@ import StarrySky from '@/components/StarrySky';
 import worksData from '@/data/works.json';
 import Link from 'next/link';
 import Image from 'next/image';
+import { BASE_PATH } from '@/lib/config';
 
 export default function GalleryPage() {
     const [selectedTag, setSelectedTag] = useState('All');
@@ -48,7 +49,7 @@ export default function GalleryPage() {
                     <div className="flex flex-col items-center">
                         <div className="relative mb-4 w-64 md:w-80 aspect-[3/1]">
                             <Image
-                                src="/images/Gallery.png"
+                                src={`${BASE_PATH}/images/Gallery.png`}
                                 alt="Gallery"
                                 fill
                                 className="object-contain drop-shadow-[0_0_10px_rgba(255,255,255,0.5)]"
@@ -129,7 +130,7 @@ export default function GalleryPage() {
                     className="fixed top-6 left-6 z-50 w-32 md:w-40 cursor-pointer transition-transform hover:scale-110"
                 >
                     <Image
-                        src="/images/ANETTAI_3DLogo_v2.png"
+                        src={`${BASE_PATH}/images/ANETTAI_3DLogo_v2.png`}
                         alt="Home"
                         width={200}
                         height={80}

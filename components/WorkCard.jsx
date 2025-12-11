@@ -1,6 +1,7 @@
 import clsx from 'clsx';
 import { twMerge } from 'tailwind-merge';
 import Image from 'next/image';
+import { BASE_PATH } from '@/lib/config';
 
 export default function WorkCard({ work, className, ...props }) {
     return (
@@ -20,7 +21,7 @@ export default function WorkCard({ work, className, ...props }) {
             <div className="relative h-full w-full overflow-hidden rounded-xl bg-gray-100">
                 {work.image ? (
                     <Image
-                        src={work.image}
+                        src={`${BASE_PATH}${work.image}`}
                         alt={work.title}
                         fill
                         className="object-cover transition-transform duration-500 group-hover:scale-110"

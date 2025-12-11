@@ -2,6 +2,7 @@
 import { motion, useTransform, useMotionValue } from 'framer-motion';
 import Image from 'next/image';
 import { useState } from 'react';
+import { BASE_PATH } from '@/lib/config';
 
 export default function NetaiChan({ scrollYProgress }) {
     const [clickCount, setClickCount] = useState(0);
@@ -68,7 +69,7 @@ export default function NetaiChan({ scrollYProgress }) {
                     {/* Day Sea */}
                     <motion.div style={{ opacity: opacityDay }} className="col-start-1 row-start-1 w-full relative">
                         <Image
-                            src="/backgrounds/sea-day.png"
+                            src={`${BASE_PATH}/backgrounds/sea-day.png`}
                             alt="Sea Day"
                             width={0}
                             height={0}
@@ -82,7 +83,7 @@ export default function NetaiChan({ scrollYProgress }) {
                     {/* Sunset Sea */}
                     <motion.div style={{ opacity: opacitySunsetLayer }} className="col-start-1 row-start-1 w-full relative">
                         <Image
-                            src="/backgrounds/sea-sunset.png"
+                            src={`${BASE_PATH}/backgrounds/sea-sunset.png`}
                             alt="Sea Sunset"
                             width={0}
                             height={0}
@@ -96,7 +97,7 @@ export default function NetaiChan({ scrollYProgress }) {
                     {/* Night Sea */}
                     <motion.div style={{ opacity: opacityNightLayer }} className="col-start-1 row-start-1 w-full relative">
                         <Image
-                            src="/backgrounds/sea-night.png"
+                            src={`${BASE_PATH}/backgrounds/sea-night.png`}
                             alt="Sea Night"
                             width={0}
                             height={0}
@@ -125,7 +126,7 @@ export default function NetaiChan({ scrollYProgress }) {
                     style={{ filter }}
                 >
                     <Image
-                        src="/images/ANETTAI_netai.png"
+                        src={`${BASE_PATH}/images/ANETTAI_netai.png`}
                         alt="寝帯ちゃん"
                         width={0}
                         height={0}

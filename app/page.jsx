@@ -2,6 +2,7 @@
 import { motion, useScroll, useTransform } from 'framer-motion';
 import Image from 'next/image';
 import Link from 'next/link';
+import { BASE_PATH } from '@/lib/config';
 import GlossyButton from '@/components/ui/GlossyButton';
 import WorkCard from '@/components/WorkCard';
 import NetaiChan from '@/components/NetaiChan';
@@ -44,14 +45,13 @@ export default function Home() {
         <div ref={containerRef} className="relative min-h-[300vh]">
             {/* Fixed Header */}
             {/* Fixed Header - Removed as requested */}
-            {/* Logo Navigation - Appears on scroll */}
             <motion.div
                 style={{ opacity: useTransform(scrollYProgress, [0.2, 0.3], [0, 1]) }}
                 className="fixed top-6 left-6 z-50 w-32 md:w-40 cursor-pointer transition-transform hover:scale-110 pointer-events-auto"
                 onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
             >
                 <Image
-                    src="/images/ANETTAI_3DLogo_v2.png"
+                    src={`${BASE_PATH}/images/ANETTAI_3DLogo_v2.png`}
                     alt="Home"
                     width={200}
                     height={80}
@@ -93,7 +93,7 @@ export default function Home() {
                     >
                         {/* Using the 3D Logo */}
                         <Image
-                            src="/images/ANETTAI_3DLogo_v2.png"
+                            src={`${BASE_PATH}/images/ANETTAI_3DLogo_v2.png`}
                             alt="ANETTAI Logo"
                             fill
                             className="object-contain drop-shadow-[0_10px_30px_rgba(255,255,255,0.5)] scale-125 md:scale-100"
@@ -162,7 +162,7 @@ export default function Home() {
                     {/* Icon */}
                     <div className="mb-6 relative w-24 h-24 rounded-full overflow-hidden border-2 border-[#00FF9D] shadow-[0_0_20px_#00FF9D]">
                         <Image
-                            src="/images/icon.png"
+                            src={`${BASE_PATH}/images/icon.png`}
                             alt="Icon"
                             fill
                             className="object-cover"
